@@ -29,7 +29,7 @@ def deluxe_curfew_checker(time)
     "You have #{time_left} hour(s) left to keep having fun!"
   end
 end
-puts deluxe_curfew_checker(10)
+
 
 def platinum_curfew_checker(current_time, curfew_time)
   time_left = curfew_time - current_time
@@ -39,4 +39,4 @@ def platinum_curfew_checker(current_time, curfew_time)
     puts "You're in trouble! Better get back to Hogwarts quick!"
   end
 end
-
+platinum_curfew_checker(10,12)
