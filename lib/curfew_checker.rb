@@ -31,7 +31,7 @@ def deluxe_curfew_checker(time)
 end
 
 
-def platinum_curfew_checker(current_time, curfew_time)
+def platinum_curfew_checker(current_time,curfew_time)
   time_left = curfew_time - current_time
   if time_left > 0 
     puts "You have #{time_left} hour(s) left to keep having fun!"
