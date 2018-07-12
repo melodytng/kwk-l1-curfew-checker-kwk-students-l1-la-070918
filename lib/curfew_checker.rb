@@ -39,4 +39,3 @@ def platinum_curfew_checker(current_time,curfew_time)
     puts "You're in trouble! Better get back to Hogwarts quick!"
   end
 end
-
