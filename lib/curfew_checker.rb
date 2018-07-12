@@ -34,9 +34,9 @@ end
 def platinum_curfew_checker(current_time,curfew_time)
   time_left = curfew_time - current_time
   if time_left > 0 
-    puts "You have #{time_left} hour(s) left to keep having fun!"
+    "You have #{time_left} hour(s) left to keep having fun!"
   else
-    puts "You're in trouble! Better get back to Hogwarts quick!"
+    "You're in trouble! Better get back to Hogwarts quick!"
   end
 end
-platinum_curfew_checker(10,9)
+puts platinum_curfew_checker(10,9)
